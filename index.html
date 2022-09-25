@@ -33,8 +33,10 @@
 
 <body id="top">
 
+<div id="preloader"></div>
+
   <!-- 
-    - #HEADERJASIL
+    - #HEADER
   -->
 
   <header class="header">
@@ -167,7 +169,7 @@
     <article>
 
       <!-- 
-        - #HEROJASIL
+        - #HERO
       -->
 
       <section class="section hero" id="home" aria-label="home"
@@ -206,7 +208,7 @@
 
 
       <!-- 
-        - #BRANDDAVID
+        - #BRAND
       -->
 
       <section class="section brand" aria-label="brand">
@@ -349,7 +351,7 @@
 
 
         <!-- 
-          - #LIVE MATCH DAVID
+          - #LIVE MATCH
         -->
 
         <section class="section live-match" id="live" aria-label="live match">
@@ -399,7 +401,7 @@
 
 
       <!-- 
-        - #FEATURED GAME JASIL
+        - #FEATURED GAME
       -->
 
       <section class="section featured-game" id="features" aria-label="featured game">
@@ -605,7 +607,7 @@
 
 
       <!-- 
-        - #SHOP JASIL
+        - #SHOP
       -->
 
       <section class="section shop" id="shop" aria-label="shop"
@@ -749,7 +751,7 @@
 
 
       <!-- 
-        - #BLOG DAVID
+        - #BLOG
       -->
 
       <section class="section blog" id="blog" aria-label="blog">
@@ -952,7 +954,7 @@
 
 
   <!-- 
-    - #FOOTER DAVID
+    - #FOOTER
   -->
 
   <footer class="footer">
@@ -1127,7 +1129,7 @@
 
 
   <!-- 
-    - #BACK TO TOP JASIL
+    - #BACK TO TOP
   -->
 
   <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
@@ -1148,6 +1150,14 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+   var loader = document.getElementById("preloader");
+
+   window.addEventListener("load", function(){
+    loader.style.display = "none";
+   })
+   </script>
 
 </body>
 
